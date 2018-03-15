@@ -1,5 +1,4 @@
 class Api::V1::ItemsController < ApplicationController
-
   def index
     render json: Item.all
   end
@@ -21,5 +20,4 @@ class Api::V1::ItemsController < ApplicationController
     def item_params
       params.require(:item).permit(:name, :description)
     end
-
 end
