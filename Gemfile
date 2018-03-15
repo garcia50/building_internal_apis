@@ -32,7 +32,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'pry'
   gem 'shoulda-matchers'
-  
+  gem 'faker'
+  gem 'active_model_serializers', '~> 0.10.0'
 end
 
 group :development do
